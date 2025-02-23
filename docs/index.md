@@ -1,174 +1,3 @@
-Keyes 基础版 学习套件 for Arduino
-
-![](media/28a18533acb699f033e2e57e458ee27a.jpg)
-
-
-# 产品介绍
-
-Keyes 基础版 学习套件是keyes推出的一款
-基于Arduino开发板的套件，套件包含各种传感器元件、模块、面包线、UNO R3
-控制板等物品，适合爱好电子的初学者使用。我们还会根据这些元件，提供一些基于Arduino开发板的一些学习课程，包含接线方法，测试代码等，让你对这些电子元件和Arduino开发板有个初步的了解。
-
-# 清单
-
-|编码|名称|规格型号|数量|图片|
-|-|-|-|-|-|
-|1|遥控器|JMP-1 17键86*40*6.5MM 黑色|1|![](media/df56638228ee054b155053246d6d67ff.jpg)|
-|2|keyes传感器|keyes 人体红外热释电传感器|1|![](media/4db6a4800c29315326454649a75f8748.jpg)|
-|3|keyes传感器|keyes 1302时钟传感器|1|![](media/fa5e80a30c8a1ca05496497ba9ee60ac.jpg)|
-|4|keyes传感器|keyes 超声波传感器|1|![](media/498ce1e361785735279d847b6204f8c3.jpg)|
-|5|keyes模块|keyes 插件RGB模块|1|![](media/31ba93458b3c411ecef2305ba0bfaadd.jpg)|
-|6|LCD|1602 COB 5V 蓝屏|1|![](media/3cb95f8cfc8605c7f53a24d2d9d1d562.jpg)|
-|7|蜂鸣器|无源 12*8.5MM 5V 普通分体 2K|1|![](media/5208fb746856f4514e157c717d267ef3.jpg)|
-|8|蜂鸣器|有源 12*9.5MM 5V 普通分体 2300Hz|1|![](media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg)|
-|9|轻触按键|6*6*5MM 插件|4|![](media/e536137c506c9f94b66e54f818fb4469.png)|
-|10|传感器元件|LM35DZ|1|![](media/c971ffe64d81aea1a195c9b7ae517b24.jpg)|
-|11|传感器元件|5MM 光敏电阻|3|![](media/c09cb519c3304d4c23eb6c479657c4d0.jpg)|
-|12|传感器元件|红外接收 5MM火焰|1|![](media/737ba3f73c03fc1a7aac6f07063d06cf.jpg)|
-|13|传感器元件|红外接收 VS1838B|1|![](media/63ffca30ba9fe46807d723b18d9c5dd8.jpg)|
-|14|滚珠开关|HDX-2801 两脚一样|2|![](media/4c38f358a550b7fe0a3710264d51caf2.jpg)|
-|15|LED|F5-白发红-短|5|![](media/a94e9e64e20d8c938f70e899e794fc34.jpg)|
-|16|LED|F5-白发黄-短|5|![](media/a94e9e64e20d8c938f70e899e794fc34.jpg)|
-|17|LED|F5-白发蓝-短|5|![](media/a94e9e64e20d8c938f70e899e794fc34.jpg)|
-|18|电阻|碳膜色环 1/4W 1% 220R|8|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|19|电阻|碳膜色环 1/4W 1% 1K|5|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|20|电阻|碳膜色环 1/4W 1% 10K|5|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|21|USB线|AM/BM 透明蓝 OD:5.0 L=50cm|1|![](media/fafb24a561af9567bc6e2efc6d23f622.png)|
-|22|面包线|面包板连接线30根|1|![](media/2f8a1a32c73b9a2b44bccd18000c76ff.jpg)|
-|23|杜邦线|公对母20CM/40P/2.54/10股铜包铝 24号线BL|0.5|![](media/9362a8ff3c350502287df4877901742b.jpg)|
-|24|点阵|20*20MM 1.9MM 红色 共阳|1|![](media/39c51eadf7598cd1a27288ca02a2a6c2.jpg)|
-|25|数码管|一位0.56英寸共阴红|1|![](media/7787953ef7619ae3753a3324751ceffc.jpg)|
-|26|数码管|四位0.36英寸共阴红|1|![](media/ee1041a554ca5afac06a3fb6239f0902.jpg)|
-|27|可调电位器|3386 MU 103|1|![](media/6d6025bc96667b6f44070355f2041f13.jpg)|
-|28|IC|74HC595 DIP|1|![](media/64b598e0178d84b9fb0878df2eecdcee.jpg)|
-|29|电池盒+插杆|6节5号带线15CM露线 带DC插杆|1|![](media/83ebc86b4e4d75d4eee11e15b9c0c20e.jpg)|
-|30|面包板|830孔 ZY-102|1|![](media/e42d80806c4ceda746aefefb3a8bc56a.jpg)|
-|31|排针|1*40P 黑色 2.54 针长3.0等边|1|![](media/1c96a81ec16da5df9f340c35ccbfc61b.jpg)|
-|32|电阻卡|100*70MM|1|![](media/93852b245f0ae356fac222dadb3dbe24.jpg)|
-|33|KE0080开发板|Keyes UNO R3 开发板 for arduino 红色 环保|1|![](media/2845f336ec140af6f279e5f5942d89f6.jpg)|
-|33|KE0081开发板|Keyes 2560 R3 开发板 for arduino 红色 环保|1|![](media/a9e267c1595115e6f27931743ec2bb91.jpg)|
-
-
-
-
-# Arduino IDE和驱动的安装
-
-当我们拿到Arduino开发板时，首先我们要安装Arduino IDE和驱动，相关文件我们可以在官网上找到，以下链接是包含各种系统、各种版本的Arduino IDE和驱动任你选择。
-
-<https://www.arduino.cc/en/Main/OldSoftwareReleases#1.5.x>
-
-下面我们介绍下Arduino-1.5.6 版本IDE在Windows系统的安装方法。
-
-下载下来的文件是一个arduino-1.5.6-r2-windows.zip的压缩文件夹，解压出来到硬盘。
-
-双击Arduino-1.5.6 .exe文件
-
-![](media/fa71c56663f756e7fb7ec2ad2514a865.png)
-
-然后
-
-![](media/bc56b067fdcc39f37308104166be5bfb.png)
-
-然后
-
-![](media/7765ebba748d098ae1805f048a7f212b.png)
-
-等待安装完成.点击close，安装完成。
-
-![](media/395497018845b1dd50695e66966104fb.png)
-
-1.5.6版本安装后的样子。
-
-![](media/af93a6fc21845eb546398e38e8c70d20.png)
-
-接下来是开发板驱动的安装，这次我们安装的是Keyes UNO R3开发板的驱动，Keyes 2560 R3开发板安装驱动方法和这个类似，驱动文件可以用同一个文件。
-
-不同的系统，安装驱动的方法也有一些细小的区别，下面我们介绍在WIN 7系统安装驱动的方法。
-
-第一次Keyes UNO R3
-开发板连接电脑时，点击计算机--属性--设备管理器，显示如下图。
-
-![](media/994912547c9fd3db1ded9082e3e9055a.png)
-
-点击 Unknown device 安装驱动，如下图。
-
-![](media/385e7e462164e18617ffb64e2639eef9.png)
-
-进入下图，选择
-
-![](media/4ac540068115dc72ad8b18664da2e968.png)
-
-找到Arduino安装位置的drivers文件夹
-
-![](media/bc3d1f7561d2a4f4ca4ec415bcfad426.png)
-
-点击“Next”，今天下图选择，开始安装驱动
-
-![](media/884877f8017764e0caf124af3d90261b.png)
-
-安装驱动完成，出现下图点击Close。
-
-![](media/e50c6960af08edb0b4833bad2d77e085.png)
-
-这样驱动就装好了。点击计算机--属性--设备管理器，我们可看见如下图。
-
-![](media/43cc43168705bb10bb3154d6cc18999e.png)
-
-# Arduino IDE的使用方法
-
-Keyes UNO R3
-开发板的USB驱动安装成功之后，我们可以在Windows设备管理器中找到相应的串口。
-
-下面示范第一个程序的烧写，串口监视器中显示“Hello World！”。
-
-测试代码为：
-
-```
-int val;
-int ledpin=13; 
-void setup()
-{
-Serial.begin(9600);
-pinMode(ledpin,OUTPUT);
-}
-void loop()
-{
-val=Serial.read();
-if(val=='R')
-{
-digitalWrite(ledpin,HIGH);
-delay(500);
-digitalWrite(ledpin,LOW);
-delay(500);
-Serial.println("Hello World!");
-}
-}
-```
-
-我们打开Arduino 的软件，编写一段程序让Keyes UNO R3
-开发板接受到我们发的指令就显示“Hello World！”字符串；我们再借用一下Keyes UNO R3 开发板上的 D13
-的指示灯，让Keyes UNO R3
-开发板接受到指令时指示灯闪烁一下，再显示“Hello World！”。
-
-打开Arduino 的软件，设置板，如下。
-
-![](media/43d9c16b238cfa52845c3a1b553cc630.png)
-
-设置COM端口，如下
-
-![](media/025e24eacb26620c8831c8a3571412f6.png)
-
-点击![](media/eb385c638a1aa0b63971a8871b1bb907.png)编译程序，检查程序是否错误；点击![](media/027da150683195e85b2f0dcdd879e0c1.png)上传程序；Keyes UNO R3 开发板设置OK后右下脚显示如下图，和设备管理器中显示一致。
-
-![](media/add2f4f32678fe555861ae1763488afd.png)
-
-上传成功，输入R，点击发送，Keyes UNO R3 开发板上的 D13
-的指示灯闪烁一次，串口监视器中显示 Hello World! 如下图
-
-![](media/fa8f2de13c41710b9dbbfde0833eca74.png)
-
-那么恭喜你，你的第一个程序已经成功了！！！
-
 # 实验课程
 
 ## 实验一 LED 闪烁实验
@@ -203,6 +32,7 @@ LED\*1
 ![](media/5bf65a18735e8fe08915991aa0b9b398.jpeg)
 
 测试代码
+
 
 int led = 2; //定义数字口2
 
@@ -3488,9 +3318,7 @@ lcd.print("No one! ");
 
 按照上图接好线，烧录好代码，旋转电位器调节好背光后，当检测到有人有附近移动时，在1602 LCD第一行显示显示"Somebody is "字符，第二行显示"in this area!"字符；当没有检测到人体在附件移动时，1602 LCD两行都显示"No one!"字符。
 
-# 相关资料链接地址
 
-https://pan.baidu.com/s/1kVejFsb
 
 
 
