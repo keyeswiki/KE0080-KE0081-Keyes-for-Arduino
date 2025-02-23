@@ -3,7 +3,7 @@ Keyes 基础版 学习套件 for Arduino
 ![](media/28a18533acb699f033e2e57e458ee27a.jpg)
 
 
-# 产品介绍
+# 介绍
 
 Keyes 基础版 学习套件是keyes推出的一款
 基于Arduino开发板的套件，套件包含各种传感器元件、模块、面包线、UNO R3
