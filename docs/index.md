@@ -9,15 +9,15 @@ LED 闪烁实验是比较基础的实验之一，上一个“ Hello World！”�
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-LED\*1
+LED *1
 
-220Ω 电阻\*1
+220Ω 电阻 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -70,15 +70,15 @@ void loop()
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-LED\*1
+LED *1
 
-220Ω 电阻\*1
+220Ω 电阻 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -108,7 +108,7 @@ void loop()
 
 {
 
-for (int a=0; a\<=255;a++)// 设置使LED逐渐变亮
+for (int a=0; a<=255;a++)// 设置使LED逐渐变亮
 
 {
 
@@ -118,7 +118,7 @@ delay(10); // 延迟0.01S
 
 }
 
-for (int a=255; a\>=0;a--) // 设置使LED逐渐变暗
+for (int a=255; a>=0;a--) // 设置使LED逐渐变暗
 
 {
 
@@ -144,15 +144,15 @@ delay(1000);// 延迟1S
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
 LED\*5
 
 220Ω 电阻\*5
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -176,7 +176,7 @@ void setup()
 
 {
 
-for (int i = BASE; i \< BASE + NUM; i ++)
+for (int i = BASE; i < BASE + NUM; i ++)
 
 {
 
@@ -190,7 +190,7 @@ void loop()
 
 {
 
-for (int i = BASE; i \< BASE + NUM; i ++)
+for (int i = BASE; i < BASE + NUM; i ++)
 
 {
 
@@ -200,7 +200,7 @@ delay(200); //延迟
 
 }
 
-for (int i = BASE; i \< BASE + NUM; i ++)
+for (int i = BASE; i < BASE + NUM; i ++)
 
 {
 
@@ -228,19 +228,19 @@ I/O 口的意思即为INPUT 接口和OUTPUT
 
 实验器材
 
-开发板 \*1
+开发板  *1
 
-USB线\*1
+USB线 *1
 
-LED\*1
+LED *1
 
-轻触按键\*1
+轻触按键 *1
 
-220Ω 电阻\*1
+220Ω 电阻 *1
 
-10KΩ 电阻\*1
+10KΩ 电阻 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -314,17 +314,17 @@ B三个引脚的PWM电压输入可以调节三种基色（红/蓝/绿）的强�
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-keyes 插件RGB模块\*1
+keyes 插件RGB模块 *1
 
-轻触按键\*4
+轻触按键 *4
 
-10KΩ 电阻\*4
+10KΩ 电阻 *4
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -478,17 +478,17 @@ analogWrite(blueled, blue);
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-LED\*1
+LED *1
 
-220Ω 电阻\*1
+220Ω 电阻 *1
 
-可调电位器\*1
+可调电位器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -549,19 +549,19 @@ delay(100);//延时0.1 秒
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-LED\*1
+LED *1
 
-220Ω 电阻\*1
+220Ω 电阻 *1
 
-10KΩ 电阻\*1
+10KΩ 电阻 *1
 
-光敏电阻\*1
+光敏电阻 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -617,13 +617,13 @@ delay(10);//延时0.01 秒
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-有源蜂鸣器\*1
+有源蜂鸣器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -675,13 +675,13 @@ void loop()
 
 实验器材
 
-开发板 \*1
+开发板  *1
 
-USB线\*1
+USB线 *1
 
-无源蜂鸣器\*1
+无源蜂鸣器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -719,7 +719,7 @@ while(1)
 
 {
 
-for(i=0;i\<80;i++)// 输出一个频率的声音
+for(i=0;i<80;i++)// 输出一个频率的声音
 
 {
 
@@ -733,7 +733,7 @@ delay(1);//延迟1ms
 
 }
 
-for(i=0;i\<100;i++)// 输出另一个频率的声音
+for(i=0;i<100;i++)// 输出另一个频率的声音
 
 {
 
@@ -749,65 +749,65 @@ delay(2);//延迟2ms
 ```
 code 2:
 ```
-\#define D0 -1
+#define D0 -1
 
-\#define D1 262
+#define D1 262
 
-\#define D2 293
+#define D2 293
 
-\#define D3 329
+#define D3 329
 
-\#define D4 349
+#define D4 349
 
-\#define D5 392
+#define D5 392
 
-\#define D6 440
+#define D6 440
 
-\#define D7 494
+#define D7 494
 
-\#define M1 523
+#define M1 523
 
-\#define M2 586
+#define M2 586
 
-\#define M3 658
+#define M3 658
 
-\#define M4 697
+#define M4 697
 
-\#define M5 783
+#define M5 783
 
-\#define M6 879
+#define M6 879
 
-\#define M7 987
+#define M7 987
 
-\#define H1 1045
+#define H1 1045
 
-\#define H2 1171
+#define H2 1171
 
-\#define H3 1316
+#define H3 1316
 
-\#define H4 1393
+#define H4 1393
 
-\#define H5 1563
+#define H5 1563
 
-\#define H6 1755
+#define H6 1755
 
-\#define H7 1971
+#define H7 1971
 
 //列出全部D调的频率
 
-\#define WHOLE 1
+#define WHOLE 1
 
-\#define HALF 0.5
+#define HALF 0.5
 
-\#define QUARTER 0.25
+#define QUARTER 0.25
 
-\#define EIGHTH 0.25
+#define EIGHTH 0.25
 
-\#define SIXTEENTH 0.625
+#define SIXTEENTH 0.625
 
 //列出所有节拍
 
-int tune\[\]= //根据简谱列出各频率
+int tune[]= //根据简谱列出各频率
 
 {
 
@@ -845,7 +845,7 @@ M2,M1,M1
 
 };
 
-float durt\[\]= //根据简谱列出各节拍
+float durt[]= //根据简谱列出各节拍
 
 {
 
@@ -893,7 +893,7 @@ void setup()
 
 pinMode(tonepin,OUTPUT);
 
-length=sizeof(tune)/sizeof(tune\[0\]); //计算长度
+length=sizeof(tune)/sizeof(tune[0]); //计算长度
 
 }
 
@@ -901,13 +901,13 @@ void loop()
 
 {
 
-for(int x=0;x\<length;x++)
+for(int x=0;x<length;x++)
 
 {
 
-tone(tonepin,tune\[x\]);
+tone(tonepin,tune[x]);
 
-delay(500\*durt\[x\]);
+delay(500*durt[x]);
 //这里用来根据节拍调节延时，500这个指数可以自己调整，在该音乐中，我发现用500比较合适。
 
 noTone(tonepin);
@@ -932,17 +932,17 @@ delay(2000);
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-有源蜂鸣器\*1
+有源蜂鸣器 *1
 
-火焰传感器\*1
+火焰传感器 *1
 
-10KΩ 电阻\*1
+10KΩ 电阻 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1011,17 +1011,17 @@ LM35 是很常用且易用的温度传感器元件，将LM35
 
 实验器材
 
-开发板 \*1
+开发板  *1
 
-USB线\*1
+USB线 *1
 
-LM35DZ\*1
+LM35DZ *1
 
 LED\*3
 
 220Ω 电阻\*3
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1051,7 +1051,7 @@ pinMode(10, OUTPUT);
 
 void loop() {
 
-int vol = analogRead(A0) \* (5.0 / 1023.0\*100);
+int vol = analogRead(A0) \* (5.0 / 1023.0 *100);
 
 Serial.print("Tep:");
 
@@ -1059,7 +1059,7 @@ Serial.print(vol);
 
 Serial.println("C");
 
-if (vol\<28)
+if (vol<28)
 
 {
 
@@ -1071,7 +1071,7 @@ digitalWrite(10, LOW);
 
 }
 
-else if (vol\>=28 && vol\<=30)
+else if (vol>=28 && vol<=30)
 
 {
 
@@ -1083,7 +1083,7 @@ digitalWrite(10, LOW);
 
 }
 
-else if (vol\>30)
+else if (vol>30)
 
 {
 
@@ -1114,9 +1114,9 @@ digitalWrite(10, HIGH);
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
 LED\*2
 
@@ -1126,7 +1126,7 @@ LED\*2
 
 10KΩ 电阻\*2
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1265,15 +1265,15 @@ VS1838B是集接收、放大、解调一体的器件，它内部IC就已经完�
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-红外遥控\*1
+红外遥控 *1
 
-红外接收 VS1838B\*1
+红外接收 VS1838B *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1289,7 +1289,7 @@ USB线\*1
 
 测试代码
 ```
-\#include \<IRremote.h\>
+#include <IRremote.h>
 
 int RECV_PIN = 11; //定义数字口11
 
@@ -1337,15 +1337,15 @@ irrecv.resume(); // 接收下个数据
 
 实验器材
 
-开发板 \*1
+开发板  *1
 
-USB线\*1
+USB线 *1
 
-一位数码管\*1
+一位数码管 *1
 
-220Ω 电阻\*8
+220Ω 电阻*8
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1389,7 +1389,7 @@ digitalWrite(c,HIGH);//给数字接口5 引脚高电平，点亮c 段
 
 digitalWrite(b,HIGH);//点亮b 段
 
-for(j=7;j\<=11;j++)//熄灭其余段
+for(j=7;j<=11;j++)//熄灭其余段
 
 digitalWrite(j,LOW);
 
@@ -1407,7 +1407,7 @@ digitalWrite(b,HIGH);
 
 digitalWrite(a,HIGH);
 
-for(j=9;j\<=11;j++)
+for(j=9;j<=11;j++)
 
 digitalWrite(j,HIGH);
 
@@ -1429,7 +1429,7 @@ digitalWrite(g,HIGH);
 
 digitalWrite(d,HIGH);
 
-for(j=5;j\<=7;j++)
+for(j=5;j<=7;j++)
 
 digitalWrite(j,HIGH);
 
@@ -1469,7 +1469,7 @@ void digital_5(void) //显示数字5
 
 unsigned char j;
 
-for(j=7;j\<=9;j++)
+for(j=7;j<=9;j++)
 
 digitalWrite(j,HIGH);
 
@@ -1491,7 +1491,7 @@ void digital_6(void) //显示数字6
 
 unsigned char j;
 
-for(j=7;j\<=11;j++)
+for(j=7;j<=11;j++)
 
 digitalWrite(j,HIGH);
 
@@ -1509,13 +1509,13 @@ void digital_7(void) //显示数字7
 
 unsigned char j;
 
-for(j=5;j\<=7;j++)
+for(j=5;j<=7;j++)
 
 digitalWrite(j,HIGH);
 
 digitalWrite(dp,LOW);
 
-for(j=8;j\<=11;j++)
+for(j=8;j<=11;j++)
 
 digitalWrite(j,LOW);
 
@@ -1527,7 +1527,7 @@ void digital_8(void) //显示数字8
 
 unsigned char j;
 
-for(j=5;j\<=11;j++)
+for(j=5;j<=11;j++)
 
 digitalWrite(j,HIGH);
 
@@ -1541,7 +1541,7 @@ void setup()
 
 int i;//定义变量
 
-for(i=4;i\<=11;i++)
+for(i=4;i<=11;i++)
 
 pinMode(i,OUTPUT);//设置4～11 引脚为输出模式
 
@@ -1619,17 +1619,17 @@ delay(1000); //延时1s
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-74HC595\*1
+74HC595 *1
 
-一位数码管\*1
+一位数码管 *1
 
-220Ω 电阻\*8
+220Ω 电阻*8
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1667,18 +1667,18 @@ void loop()
 
 {
 
-int a\[10\]={
+int a\[10]={
 
 246,254,224,190,182,102,242,218,96,252};
 //定义功能数组，数组依次为数码管得定义
 
-for(int x=9; x\>-1 ;x-- ) //倒数功能循环
+for(int x=9; x>-1 ;x-- ) //倒数功能循环
 
 {
 
 digitalWrite(latchPin,LOW);
 
-shiftOut(dataPin,clockPin,MSBFIRST,a\[x\]); //显示数组a\[x\]
+shiftOut(dataPin,clockPin,MSBFIRST,a\[x]); //显示数组a\[x]
 
 digitalWrite(latchPin,HIGH);
 
@@ -1692,35 +1692,35 @@ delay(1000);
 
 下载完程序后，数码管循环显示0～9 数字。
 
-## 实验十六 8\*8点阵显示实验
+## 实验十六 8*8点阵显示实验
 
 实验说明
 
 点阵在我们生活中很常见，很多都有用到他，比如LED广告显示屏，电梯显示楼层，公交车报站等等。
 
-8\*8点阵共由64个发光二极管组成，且每个发光二极管是放置在行线和列线的交叉点上，当对应的某一行置高电平，某一列置低电平，则相应的二极管就亮；如要将第一个点点亮，则7脚接高电平A脚接低电平，则第一个点就亮了；如果要将第一行点亮，则第7脚要接高电平，而A、B、C、D、E、F、G、H这些引脚接低电平，那么第一行就会点亮；如要将第一列点亮，则第A脚接低电平，而0、1、2、3、4、5、6、7接高电平，那么第一列就会点亮。
+8*8点阵共由64个发光二极管组成，且每个发光二极管是放置在行线和列线的交叉点上，当对应的某一行置高电平，某一列置低电平，则相应的二极管就亮；如要将第一个点点亮，则7脚接高电平A脚接低电平，则第一个点就亮了；如果要将第一行点亮，则第7脚要接高电平，而A、B、C、D、E、F、G、H这些引脚接低电平，那么第一行就会点亮；如要将第一列点亮，则第A脚接低电平，而0、1、2、3、4、5、6、7接高电平，那么第一列就会点亮。
 
 在本课程中，我们只是让点阵输出一个“0”。
 
-8\*8点阵原理图
+8*8点阵原理图
 
 ![](media/52e76f32437c2e9d113eb9129ee0a7f4.png)
 
-8\*8点阵实物图
+8*8点阵实物图
 
 ![](media/ffb42c8993e43014e29c56881cf579ae.png)![](media/cc0b7bb60c45673efd29e068a98e02f0.png)
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-8\*8点阵\*1
+8*8点阵 *1
 
-220Ω 电阻\*8
+220Ω 电阻*8
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1738,13 +1738,13 @@ USB线\*1
 ```
 //定义了一个数组，用来存放“0”字的字模
 
-unsigned char Text\[\]={0x00,0x1c,0x22,0x22,0x22,0x22,0x22,0x1c};
+unsigned char Text[]={0x00,0x1c,0x22,0x22,0x22,0x22,0x22,0x1c};
 
 void Draw_point(unsigned char x,unsigned char y)//画点函数
 
 {
 
-clear\_();
+clear_();
 
 digitalWrite(x+2, HIGH);
 
@@ -1760,19 +1760,19 @@ void show_num(void)//显示函数，最终还是调用了画点函数。
 
 unsigned char i,j,data;
 
-for(i=0;i\<8;i++)
+for(i=0;i<8;i++)
 
 {
 
-data=Text\[i\];
+data=Text[i];
 
-for(j=0;j\<8;j++)
+for(j=0;j<8;j++)
 
 {
 
 if(data & 0x01)Draw_point(j,i);
 
-data\>\>=1;
+data>>=1;
 
 }
 
@@ -1784,7 +1784,7 @@ void setup(){
 
 int i = 0 ;
 
-for(i=2;i\<18;i++)
+for(i=2;i<18;i++)
 
 {
 
@@ -1792,7 +1792,7 @@ pinMode(i, OUTPUT);
 
 }
 
-clear\_();
+clear_();
 
 }
 
@@ -1804,15 +1804,15 @@ show_num();
 
 }
 
-void clear\_(void)//清除屏幕
+void clear_(void)//清除屏幕
 
 {
 
-for(int i=2;i\<10;i++)
+for(int i=2;i<10;i++)
 
 digitalWrite(i, LOW);
 
-for(int i=0;i\<8;i++)
+for(int i=0;i<8;i++)
 
 digitalWrite(i+10, HIGH);
 
@@ -1838,15 +1838,15 @@ digitalWrite(i+10, HIGH);
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-四位数码管\*1
+四位数码管 *1
 
-220Ω 电阻\*8
+220Ω 电阻*8
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -1940,11 +1940,11 @@ int d=0;
 
 unsigned long currentMillis = millis();
 
-while(d\>=0)
+while(d>=0)
 
 {
 
-while(millis()-currentMillis\<1000)
+while(millis()-currentMillis<1000)
 
 {
 
@@ -1962,7 +1962,7 @@ currentMillis = millis();
 
 d++;
 
-if (d\>9)
+if (d>9)
 
 {
 
@@ -1972,7 +1972,7 @@ d=0;
 
 }
 
-if (c\>9)
+if (c>9)
 
 {
 
@@ -1982,7 +1982,7 @@ c=0;
 
 }
 
-if (b\>9)
+if (b>9)
 
 {
 
@@ -1992,7 +1992,7 @@ b=0;
 
 }
 
-if (a\>9)
+if (a>9)
 
 {
 
@@ -2410,15 +2410,15 @@ Clear() ; // clear the screen
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-1602 LCD\*1
+1602 LCD *1
 
-可调电位器\*1
+可调电位器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -2448,7 +2448,7 @@ USB线\*1
 
 四位接法
 ```
-/\*
+/*
 
 LiquidCrystal Library - Hello World
 
@@ -2490,11 +2490,11 @@ The circuit:
 
 \* wiper to LCD VO pin
 
-\*/
+*/
 
 // include the library code:
 
-\#include \<LiquidCrystal.h\>
+#include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
 
@@ -2528,7 +2528,7 @@ int DI = 12;
 
 int RW = 11;
 
-int DB\[\] = {3, 4,5, 6,7 ,8, 9, 10};//使用数组来定义总线需要的管脚
+int DB[] = {3, 4,5, 6,7 ,8, 9, 10};//使用数组来定义总线需要的管脚
 
 int Enable = 2;
 
@@ -2538,14 +2538,14 @@ void LcdCommandWrite(int value) {
 
 int i = 0;
 
-for (i=DB\[0\]; i \<= DI; i++) //总线赋值
+for (i=DB[0]; i <= DI; i++) //总线赋值
 
 {
 
 digitalWrite(i,value &
 01);//因为1602液晶信号识别是D7-D0(不是D0-D7)，这里是用来反转信号。
 
-value \>\>= 1;
+value >>= 1;
 
 }
 
@@ -2573,11 +2573,11 @@ digitalWrite(DI, HIGH);
 
 digitalWrite(RW, LOW);
 
-for (i=DB\[0\]; i \<= DB\[7\]; i++) {
+for (i=DB[0]; i <= DB[7]; i++) {
 
 digitalWrite(i,value & 01);
 
-value \>\>= 1;
+value >>= 1;
 
 }
 
@@ -2599,7 +2599,7 @@ void setup (void) {
 
 int i = 0;
 
-for (i=Enable; i \<= DI; i++) {
+for (i=Enable; i <= DI; i++) {
 
 pinMode(i,OUTPUT);
 
@@ -2738,13 +2738,13 @@ R、 G、 B三个引脚的PWM电压合成了几种常用颜色灯光。
 
 实验器材
 
-开发板 \*1
+开发板  *1
 
-USB线\*1
+USB线 *1
 
-RGB模块\*1
+RGB模块 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -2840,17 +2840,17 @@ analogWrite(bluePin, blue);
 
 实验器材
 
-开发板 \*1
+开发板  *1
 
-USB线\*1
+USB线 *1
 
-1602 LCD\*1
+1602 LCD *1
 
-可调电位器\*1
+可调电位器 *1
 
-超声波传感器\*1
+超声波传感器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -2866,13 +2866,13 @@ USB线\*1
 
 测试代码
 ```
-\#include \<LiquidCrystal.h\>
+#include <LiquidCrystal.h>
 
-\#define echoPin 9 // Echo Pin
+#define echoPin 9 // Echo Pin
 
-\#define trigPin 8 // Trigger Pin
+#define trigPin 8 // Trigger Pin
 
-\#define LEDPin 13 // Onboard LED
+#define LEDPin 13 // Onboard LED
 
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
@@ -2900,9 +2900,9 @@ lcd.print("The distance is:");
 
 void loop() {
 
-/\* The following trigPin/echoPin cycle is used to determine the
+/* The following trigPin/echoPin cycle is used to determine the
 
-distance of the nearest object by bouncing soundwaves off of it. \*/
+distance of the nearest object by bouncing soundwaves off of it. */
 
 digitalWrite(trigPin, LOW);
 
@@ -2920,11 +2920,11 @@ duration = pulseIn(echoPin, HIGH);
 
 distance = duration/58.2;
 
-if (distance \>= maximumRange || distance \<= minimumRange){
+if (distance >= maximumRange || distance <= minimumRange){
 
-/\* Send a negative number to computer and Turn LED ON
+/* Send a negative number to computer and Turn LED ON
 
-to indicate "out of range" \*/
+to indicate "out of range" */
 
 lcd.setCursor(0,1);
 
@@ -2936,13 +2936,13 @@ digitalWrite(LEDPin, HIGH);
 
 else {
 
-/\* Send the distance to the computer using Serial protocol, and
+/* Send the distance to the computer using Serial protocol, and
 
-turn LED OFF to indicate successful reading. \*/
+turn LED OFF to indicate successful reading. */
 
 Serial.println(distance);
 
-if(distance\<10)
+if(distance<10)
 
 {
 
@@ -2956,7 +2956,7 @@ lcd.print(" ");
 
 }
 
-if((distance \>=10)&&(distance\<100))
+if((distance >=10)&&(distance<100))
 
 {
 
@@ -2970,7 +2970,7 @@ lcd.print(" ");
 
 }
 
-if(distance\>100)
+if(distance>100)
 
 {
 
@@ -3002,17 +3002,17 @@ delay(50);
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-1602 LCD\*1
+1602 LCD *1
 
-可调电位器\*1
+可调电位器 *1
 
-1302时钟传感器\*1
+1302时钟传感器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -3028,19 +3028,19 @@ USB线\*1
 
 测试代码
 ```
-\#include \<stdio.h\>
+#include <stdio.h>
 
-\#include \<string.h\>
+#include <string.h>
 
-\#include \<DS1302.h\>
+#include <DS1302.h>
 
-\#include \<Wire.h\>
+#include <Wire.h>
 
-\#include \<LiquidCrystal.h\>
+#include <LiquidCrystal.h>
 
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
-/\* Set the appropriate digital I/O pin connections \*/
+/* Set the appropriate digital I/O pin connections */
 
 uint8_t CE_PIN = 10; // RST
 
@@ -3048,19 +3048,19 @@ uint8_t IO_PIN = 9; // DAT
 
 uint8_t SCLK_PIN = 8; // CLK
 
-/\* Create buffers \*/
+/* Create buffers */
 
-char buf\[50\];
+char buf[50];
 
-char bf\[50\];
+char bf[50];
 
-char bu\[50\];
+char bu[50];
 
-char uf\[50\];
+char uf[50];
 
-char day\[10\];
+char day[10];
 
-/\* Create a DS1302 object \*/
+/* Create a DS1302 object */
 
 DS1302 rtc(CE_PIN, IO_PIN, SCLK_PIN);
 
@@ -3068,13 +3068,13 @@ void print_time()
 
 {
 
-/\* Get the current time and date from the chip \*/
+/* Get the current time and date from the chip */
 
 Time t = rtc.time();
 
-/\* Name the day of the week \*/
+/* Name the day of the week */
 
-memset(day, 0, sizeof(day)); /\* clear day buffer \*/
+memset(day, 0, sizeof(day)); /* clear day buffer */
 
 switch (t.day) {
 
@@ -3122,7 +3122,7 @@ break;
 
 }
 
-/\* Format the time and date and insert into the temporary buffer \*/
+/* Format the time and date and insert into the temporary buffer */
 
 snprintf(buf, sizeof(buf), "%s %04d-%02d-%02d %02d:%02d:%02d",
 
@@ -3144,7 +3144,7 @@ snprintf(bu, sizeof(bu),"%02d:%02d:%02d",
 
 t.hr, t.min, t.sec);
 
-/\* Print the formatted string to serial so we can see the time \*/
+/* Print the formatted string to serial so we can see the time */
 
 lcd.setCursor(0,1);
 
@@ -3166,27 +3166,27 @@ void setup()
 
 lcd.begin(16, 2);
 
-/\* Initialize a new chip by turning off write protection and clearing the
+/* Initialize a new chip by turning off write protection and clearing the
 
 clock halt flag. These methods needn't always be called. See the DS1302
 
-datasheet for details. \*/
+datasheet for details. */
 
 rtc.write_protect(false);
 
 rtc.halt(false);
 
-/\* Make a new time object to set the date and time \*/
+/* Make a new time object to set the date and time */
 
 Time t(2017,7,24,10,12,22,2);
 
-/\* Set the time and date on the chip \*/
+/* Set the time and date on the chip */
 
 rtc.time(t);
 
 }
 
-/\* Loop and print the time every second \*/
+/* Loop and print the time every second */
 
 void loop()
 
@@ -3210,17 +3210,17 @@ delay(1000);
 
 实验器材
 
-开发板\*1
+开发板 *1
 
-USB线\*1
+USB线 *1
 
-1602 LCD\*1
+1602 LCD *1
 
-可调电位器\*1
+可调电位器 *1
 
-人台红外热释电传感器\*1
+人台红外热释电传感器 *1
 
-面包板\*1
+面包板 *1
 
 面包板连接线若干
 
@@ -3236,7 +3236,7 @@ USB线\*1
 
 测试代码
 ```
-\#include \<LiquidCrystal.h\>
+#include <LiquidCrystal.h>
 
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
