@@ -19,8 +19,8 @@
 
 project = 'keyes WiKi'
 copyright = 'keyes , WiKi'
-author = 'keyes WiKi'
-copyright = 'Shenzhen keyes Technology Co., Ltd'
+author = 'keyes'
+copyright = 'Shenzhen keyes DIY robot Co., Ltd'
 
 # -- General configuration ---------------------------------------------------
 
