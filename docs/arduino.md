@@ -76,23 +76,25 @@ Keyes UNO R3
 
 ```
 int val;
-int ledpin=13; 
+int ledpin = 13;    // 定义LED引脚为13
+
 void setup()
 {
-Serial.begin(9600);
-pinMode(ledpin,OUTPUT);
+    Serial.begin(9600);            // 初始化串口通信
+    pinMode(ledpin, OUTPUT);      // 设置LED引脚为输出模式
 }
+
 void loop()
 {
-val=Serial.read();
-if(val=='R')
-{
-digitalWrite(ledpin,HIGH);
-delay(500);
-digitalWrite(ledpin,LOW);
-delay(500);
-Serial.println("Hello World!");
-}
+    val = Serial.read();          // 读取串口数据
+    if (val == 'R')              // 如果接收到字符'R'
+    {
+        digitalWrite(ledpin, HIGH);    // LED亮
+        delay(500);                     // 延时500ms
+        digitalWrite(ledpin, LOW);      // LED灭
+        delay(500);                     // 延时500ms
+        Serial.println("Hello World!"); // 串口输出"Hello World!"
+    }
 }
 ```
 
